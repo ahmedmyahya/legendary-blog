@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+
+.companyName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.light {
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 7.3vw;
+}
+
+.strong {
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}

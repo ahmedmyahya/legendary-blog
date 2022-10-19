@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+    border: 1pt solid red;
+}
+
+.company-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.comapny-header {
+
+}
+
+.company-body {
+    display: flex;
+    flex-direction: row;
+}

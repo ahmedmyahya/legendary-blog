@@ -10,6 +10,11 @@
   
 } */
 
+/* .nav-menu {
+  height: 100px;
+  position: relative;
+} */
+
 .hamburger {
   position: fixed;
   /* border: 1pt solid red; */
@@ -17,9 +22,9 @@
 
 .close-menu {
   /* border: 1pt solid red; */
-  position: fixed;
-  top: 5%;
-  left: 5%;
+  /* position: fixed; */
+  /* top: 5%;
+  left: 5%; */
 }
 
 .nav-opened{
@@ -57,8 +62,9 @@
 }
 
 .hidden{
-  position: absolute;
+  position: relative;
   visibility: hidden;
+  height: wro=;
 }
 
 @keyframes menu {

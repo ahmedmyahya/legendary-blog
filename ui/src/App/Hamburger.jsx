@@ -42,7 +42,7 @@ function Hamburger() {
         setMenuState(!menuState);
     };
     return (
-        <div>
+        <div className='nav-menu'>
             <Menu />
             <div className='close-menu' style={{ visibility: menuState ? 'visible' : 'hidden' }} onClick={() => toggleMenu()}><img src={SVGs.close} alt='close' /></div>
             <div className='hamburger' onClick={() => toggleMenu()}>{<img src={SVGs.hamburger} alt='hamburger' />}</div>
